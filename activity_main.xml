@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:text="Calculadora da Média" />
+
+    <EditText
+        android:id="@+id/notaA1"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:hint="Insira a nota A1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/notaA2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:hint="Insira a nota A2"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/notaA3"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:hint="Insira a nota A3"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/calcularButton"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="@color/colorAccent"
+        android:text="Calcular Média" />
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:paddingTop="16dp"
+        android:text=""
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
